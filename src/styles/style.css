@@ -1,0 +1,42 @@
+:root {
+--main-color: #fe8a02;
+--white: #fff;
+--light: ##f5f4f0;
+--main-dark: #42413c;
+--dark: #2a2626;
+--brown: #b09a81;
+--blue: #1085c5;
+--white50: #d7ccc0;
+--dark50:  #908d8b;
+}
+
+
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2A2626;
+    line-height: 1.6em;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Neucha', cursive;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+section {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
