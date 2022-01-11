@@ -1,13 +1,38 @@
-:root {
---main-color: #fe8a02;
---white: #fff;
---light: ##f5f4f0;
---main-dark: #42413c;
---dark: #2a2626;
---brown: #b09a81;
---blue: #1085c5;
---white50: #d7ccc0;
---dark50:  #908d8b;
+
+.main-color {
+ color: #fe8a02;
+}
+
+.white {
+  color: #fff;
+}
+
+.light {
+    color:  #f5f4f0;
+}
+
+.main-dark {
+    color: #42413c;
+}
+
+.dark {
+    color: #2a2626;
+}
+
+.brown {
+    color: #b09a81;
+}
+
+.blue {
+    color: #1085c5;
+}
+
+.white50 {
+     color: #d7ccc0;
+}
+
+.dark50 {
+    color: #908d8b;
 }
 
 
@@ -39,4 +64,39 @@ section {
     width: 1110px;
     margin: 0 auto;
     padding: 100px 0;
+}
+
+.background{
+    position: relative;
+}
+.background::before {
+    content:'';
+    display: block;
+    position: absolute;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+
+button {
+    margin: 24px;
+    padding: 12px;
+    font-weight: bold;
+    background-color:#fe8a02;
+}
+
+.column {
+    column-count: 2;
+    margin-top: 0;
+}
+
+.pic {
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -270px;
 }
